@@ -12,6 +12,6 @@ export default async function connect() {
     console.log("✅ Connected to MongoDB");
   } catch (error) {
     console.error("❌ MongoDB connection error:", error.message);
-    process.exit(1); // stop server if DB connection fails
+    process.exit(1); 
   }
 }
